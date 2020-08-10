@@ -1,2 +1,2 @@
-Customizing tmux
+<h3>Customizing your tmux.conf</h3>
 Customizing tmux is as easy as editing a text file. tmux uses a file called tmux.conf to store its configuration. If you store that file as ~/.tmux.conf tmux will pick this configuration file for your current user. If you want to share a configuration for multiple users (e.g. if you should feel the urge to start tmux as super user (please think about this carefully!)) you can also put your tmux.conf into a system-wide directory. The location of this directory will be different accross different operating systems. The man page (man tmux) will tell you the exact location, just have a look at documentation for the -f parameter.
